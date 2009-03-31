@@ -46,6 +46,7 @@ Now you can read and write to the _Faux Column_ attributes just like regular att
     house.driving_directions = "Head south on route 123, turn left at the light."
   
     house.kitchen_cabinets          # => 12
+    house.driving_directions        # => "Head south on route 123, turn left at the light."
     house.data.driving_directions   # => "Head south on route 123, turn left at the light."
 
 
